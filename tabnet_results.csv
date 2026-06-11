@@ -1,0 +1,9 @@
+dataset,model,fraction,n_train_samples,accuracy,macro_f1,roc_auc,pr_auc,f1,rmse,mae,r2,ssl_pretrain_success,best_pretrain_epoch,best_optuna_params
+covertype,tabnet,1.0,464809,0.964,0.939,,,,,,,False,0,"n_d=64,n_a=64,n_steps=6,gamma=1.5,mask=sparsemax,lambda=0.0001,pretrain_batch=2048,finetune_batch=16384,pretrain_lr=0.005,finetune_lr=0.02"
+covertype,tabnet,0.5,232404,0.9369,0.883,,,,,,,False,0,"n_d=64,n_a=64,n_steps=6,gamma=1.5,mask=sparsemax,lambda=0.0001,pretrain_batch=2048,finetune_batch=16384,pretrain_lr=0.005,finetune_lr=0.02"
+covertype,tabnet,0.1,46480,0.879,0.7989,,,,,,,False,0,"n_d=64,n_a=64,n_steps=6,gamma=1.5,mask=sparsemax,lambda=0.0001,pretrain_batch=2048,finetune_batch=11620,pretrain_lr=0.005,finetune_lr=0.02"
+covertype,tabnet,0.08,37184,0.8712,0.7892,,,,,,,False,0,"n_d=64,n_a=64,n_steps=6,gamma=1.5,mask=sparsemax,lambda=0.0001,pretrain_batch=2048,finetune_batch=9296,pretrain_lr=0.005,finetune_lr=0.02"
+covertype,tabnet,0.06,27888,0.8249,0.7346,,,,,,,False,0,"n_d=64,n_a=64,n_steps=6,gamma=1.5,mask=sparsemax,lambda=0.0001,pretrain_batch=2048,finetune_batch=6972,pretrain_lr=0.005,finetune_lr=0.02"
+covertype,tabnet,0.04,18592,0.8288,0.7021,,,,,,,False,1,"n_d=64,n_a=64,n_steps=6,gamma=1.5,mask=sparsemax,lambda=0.0001,pretrain_batch=2048,finetune_batch=4648,pretrain_lr=0.005,finetune_lr=0.02"
+covertype,tabnet,0.02,9296,0.7961,0.649,,,,,,,False,3,"n_d=64,n_a=64,n_steps=6,gamma=1.5,mask=sparsemax,lambda=0.0001,pretrain_batch=2048,finetune_batch=2324,pretrain_lr=0.005,finetune_lr=0.02"
+covertype,tabnet,0.01,4648,0.7463,0.5733,,,,,,,True,10,"n_d=64,n_a=64,n_steps=6,gamma=1.5,mask=sparsemax,lambda=0.0001,pretrain_batch=1162,finetune_batch=1162,pretrain_lr=0.005,finetune_lr=0.02"
